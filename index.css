@@ -1,0 +1,58 @@
+.navbar{
+    padding :30px;
+
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 150px;
+    font-size: 50px;
+    text-transform: capitalize;
+
+}
+.navbar-nav{
+    padding-left: 300px;
+    text-decoration-line: none;
+}
+.nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: purple !important;
+    margin-left: 5px;
+    transition: 0.6s;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    transform: translatey(-20px);
+    background: #dc3445;
+}
+/* header */
+.header{
+    margin: 0;
+    padding: 0;
+}
+.header img{
+    height: 100vh;
+    width: 100%;
+
+}
+.header .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: 1;
+
+}
+.box1{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+
+
